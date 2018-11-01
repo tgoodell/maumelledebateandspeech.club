@@ -1,0 +1,83 @@
+<DOCTYPE="HTML">
+<html>
+  <header>
+    <title>Maumelle Debate and Speech Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="master.js"></script>    
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.tristangoodell.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+  </header>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <div>
+        <a href="index.html"><span class="title">Maumelle Debate and Speech Club</span><span class="short-title">MDSC</span></a>
+        <a href="join.html" style="font-size: 25px;margin: 4px;">Join</a>
+        <a href="bylaws.html" style="font-size: 25px;margin: 4px;">Bylaws</a>
+        <a href="get-in-touch.html" style="font-size: 25px;margin: 4px;">Get In Touch</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars" style="font-size:35px;"></i>
+    </a>
+    </div>
+    </div>
+  </nav>
+  <body>
+    <div class="coolcard">
+      <h1>Requirements of Membership</h1>
+      <p>
+        <ul>
+          <li>A current student of <a href="https://mhs.pcssd.org">Maumelle High School.</a></li>
+          <li>Maintain a GPA of 2.0 or higher.</li>
+          <li>Have keen interest in public speaking and a determination to get better.</li>
+        </ul>
+      </p>
+      <h1>Requirements to maintain membership</h1>
+      <p>
+        <ul>
+          <li>Show up to a minimum of two meetings a month. Meetings are every Wednesday 4:00PM - 6:00PM.</li>
+          <li>Participate at every club meeting.</li>
+          <li>Go to a minimum of one tournament per semester.</li>
+        </ul>
+      </p>
+    </div>
+    <div class="coolcard">
+      <p style="border-bottom: 3px solid #4a6fa5;">Please fill out the application below to apply for membership.</p>
+      <form action="join.php" method="POST">
+        <p>First Name <input type="text" name="firstname"></p>
+        <p>Last Name <input type="text" name="lastname"></p>
+        <p>Email <input type="text" name="email"></p>
+        <p>Cell Phone Number <input type="text" name="number"></p>
+        <p>Is the club meeting time of 4:00PM - 6:00PM every Wednesday sufficient for you?</p>
+          <p><input id="yes" type="radio" name="meet" value="yes">
+          <label for="yes">Yes</label></p>
+          <p><input id="no" type="radio" name="meet" value="no">
+          <label for="no">No</label></p>
+        <p>Current GPA <input type="text" name="gpa"></p>
+        <p>Any Other Comments</p> <textarea name="message" rows="6" cols="25"></textarea><br />
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div class="coolfooter">
+      <p>Copyright 2018 Maumelle Debate and Speech Club</p>
+    </div>
+  </footer>
+</html>
