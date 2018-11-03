@@ -11,6 +11,10 @@ p {
   font-size: 25px;
 }
 
+li {
+  font-size: 20px;
+}
+
 .short-title {
   display: none;
 }
@@ -118,10 +122,10 @@ input[type=submit]:hover {
 
 .coolcard {
   background-color: #e8e6e3;
-  box-shadow: 10px 10px #4f6d7a;
   padding: 2%;
   margin: 2%;
   line-height: 40px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .coolcard a {
