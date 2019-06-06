@@ -7,6 +7,7 @@ This repository houses the website files for [maumelledebateandspeech.club](http
 ![html5](https://img.shields.io/badge/code-HTML5-orange.svg)
 ![css3](https://img.shields.io/badge/code-CSS-blue.svg)
 ![js](https://img.shields.io/badge/code-JS-yellow.svg)
+![php](https://img.shields.io/badge/code-PHP-%238892bf.svg)
 ![avh](https://img.shields.io/badge/web-Apache%20Virtual%20Hosts-critical.svg)
 ![GNU GPLv3](https://img.shields.io/badge/license-GNU%20GPLv3-%23a42e2b.svg)
 
